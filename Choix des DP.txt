@@ -1,0 +1,49 @@
+----------------------------------------------------------------
+CHOIX DU DESIGN PATTERN :
+
+-DP FACTORY 
+Pattern permettant de créer une classe globale pour pouvoir en faire
+des classes dérivées.
+
+Exple : Dans notre cas on peut avoir une Classe Factory Armoires de laquelle 
+les plats, cuillères... y seront dérivés
+
+-DP Singleton
+Le Design Pattern Singleton sera là pour nous 
+permettre d’instancier qu’une seule fois certaines 
+1classe et ainsi empêcher les doublons 
+et le mal fonctionnement de certaines classes.
+
+
+-DP Observer
+Pattern utilisé pour créer une relation de un à plusieurs d'objets 
+de cette relation de telle sorte que lorsqu'un objet change ou est
+modifié tous les objets connectés sont informés de ce changement et
+ils se mettent à jour en conséquence 
+
+
+- DP Observer
+Le Design Pattern observer nous permettra de faire 
+interagir le package Model avec celui de la Vue. 
+On pourra à chaque changement d’état d’un attribut dans 
+le modèle, notifier la vue de ce changement et ainsi la 
+vue pourra afficher les bonnes données aux bons moments.
+
+
+-DP Strategy 
+
+(Dans notre cas ce design va nous permettre d'élaborer certaines
+stratégies pour optimiser la reception, le service, le payement des clients
+par exple l'acheminement des clients vers les tables respectives lors d'une
+affluence importante dans le resto)
+
+famille d'algorithmes, encapsule chacun d'eux et les rend interchangeables. 
+Ce modèle permet à l'algorithme de varier indépendamment 
+des clients qui l'utilisent.
+
+- DP Façade
+
+Le Design Pattern façade nous aidera à avoir 
+un code encore mieux structurer nettement avec des 
+classes façade pour avoir une vue d’ensemble de toutes 
+méthodes, attributs de nos package.
